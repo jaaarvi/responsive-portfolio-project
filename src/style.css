@@ -12,6 +12,21 @@ h2 {
   font-size: 36px;
 }
 
+footer {
+  font-size: 14px;
+  text-align: center;
+  color: #ab5a5a;
+  padding: 20px;
+}
+
+footer a {
+  color: #ab5a5a;
+}
+
+footer a:visited {
+  color: #ab5a5a;
+}
+
 .hero {
   background: #fff;
   border: 1px solid #fbcdc0;
@@ -39,4 +54,18 @@ h2 {
 .contact-link a:hover {
   color: #fff;
   background: #ab5a5a;
+}
+
+.portfolio-sneak-peek {
+  background: #fff;
+  margin: 35px auto;
+  padding: 73px;
+}
+
+.portfolio-sneak-peek img {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ab5a5a;
+  box-shadow: 16px 16px 0px #ab5a5a;
 }
