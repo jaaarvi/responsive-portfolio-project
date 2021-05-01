@@ -27,6 +27,50 @@ footer a:visited {
   color: #ab5a5a;
 }
 
+.navbar {
+  background: #fbcdc0;
+}
+
+.navbar .logo {
+  max-width: 150px;
+}
+
+.navbar-toggler {
+  color: #526067;
+}
+
+.navbar-toggler-icon i {
+  font-size: 32px;
+}
+
+.navbar-collapse {
+  text-align: right;
+}
+
+.navbar .dropdown-menu {
+  background: #fbcdc0;
+  border: none;
+  text-align: right;
+  position: relative;
+  left: -60px;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.navbar a {
+  color: #526067;
+  text-decoration: none;
+}
+
+.navbar .active {
+  font-weight: 500;
+  color: #0f261f;
+}
+
 .hero {
   background: #fff;
   border: 1px solid #fbcdc0;
