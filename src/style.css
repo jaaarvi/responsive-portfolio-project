@@ -1,34 +1,35 @@
+:root {
+  --accent-color: #dcebf4;
+  --bold-color: #0f261f;
+  --muted-color: #526067;
+}
+
 body {
   font-family: "Mulish", sans-serif;
-  background: #d5e1e9;
+  background: #fff;
 }
 
 h1 {
-  font-family: "Caveat", cursive;
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 36px;
+  font-family: "Poiret One", sans-serif;
 }
 
 footer {
   font-size: 14px;
   text-align: center;
-  color: #ab5a5a;
+  color: var(--muted-color);
   padding: 20px;
 }
 
 footer a {
-  color: #ab5a5a;
+  color: var(--bold-color);
 }
 
 footer a:visited {
-  color: #ab5a5a;
+  color: var(--muted-color);
 }
 
 .navbar {
-  background: #fbcdc0;
+  background: var(--accent-color);
 }
 
 .navbar .logo {
@@ -36,7 +37,7 @@ footer a:visited {
 }
 
 .navbar-toggler {
-  color: #526067;
+  color: var(--muted-color);
 }
 
 .navbar-toggler-icon i {
@@ -48,7 +49,7 @@ footer a:visited {
 }
 
 .navbar .dropdown-menu {
-  background: #fbcdc0;
+  background: var(--accent-color);
   border: none;
   text-align: right;
   position: relative;
@@ -62,24 +63,30 @@ footer a:visited {
 }
 
 .navbar a {
-  color: #526067;
+  color: var(--muted-color);
   text-decoration: none;
 }
 
 .navbar .active {
   font-weight: 500;
-  color: #0f261f;
+  color: var(--bold-color);
 }
 
-.hero {
+.homepage-hero {
   background: #fff;
-  border: 1px solid #fbcdc0;
-  box-shadow: 16px 16px 0px #fbcdc0;
-  color: #ab5a5a;
+  color: var(--bold-color);
   margin: 115px auto 35px;
   max-width: 750px;
   padding: 45px 25px;
   text-align: center;
+}
+
+.homepage-hero h1 {
+  font-size: 72px;
+}
+
+.homepage-hero h2 {
+  font-size: 24px;
 }
 
 .contact-link {
@@ -89,27 +96,26 @@ footer a:visited {
 }
 
 .contact-link a {
+  border: 1px solid var(--muted-color);
   padding: 14px 42px;
   background: #fff;
   text-decoration: none;
-  color: #ab5a5a;
+  color: var(--muted-color);
 }
 
 .contact-link a:hover {
   color: #fff;
-  background: #ab5a5a;
+  background: var(--muted-color);
 }
 
 .portfolio-sneak-peek {
-  background: #fff;
-  margin: 35px auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px;
   padding: 73px;
+  padding-top: 105px;
 }
 
 .portfolio-sneak-peek img {
   max-width: 350px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #ab5a5a;
-  box-shadow: 16px 16px 0px #ab5a5a;
 }
