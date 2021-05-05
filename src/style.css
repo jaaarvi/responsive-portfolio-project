@@ -92,6 +92,8 @@ footer a:visited {
 .hero {
   color: var(--bold-color);
   margin: 115px auto 35px;
+  white-space: nowrap;
+  padding: 45px 25px;
 }
 
 .hero h1 {
@@ -101,7 +103,7 @@ footer a:visited {
 .contact-link {
   text-align: center;
   width: 180px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .contact-link a {
@@ -110,6 +112,7 @@ footer a:visited {
   background: #fff;
   text-decoration: none;
   color: var(--muted-color);
+  white-space: nowrap;
 }
 
 .contact-link a:hover {
@@ -119,18 +122,38 @@ footer a:visited {
 
 .portfolio-sneak-peek {
   display: flex;
-  justify-content: space-between;
-  margin: 0 35px;
-  padding: 73px;
-  padding-top: 105px;
+  justify-content: center;
+  margin: 105px auto 50px;
 }
 
 .portfolio-sneak-peek img {
   max-width: 350px;
+  padding: 20px;
+}
+
+.caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+.about {
+  background: var(--accent-color);
+  padding: 40px;
+}
+
+.portrait {
+  max-height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-text {
+  background: #fff;
+  padding: 35px;
 }
 
 .professional-links {
-  max-width: 100px;
+  margin: 35px;
 }
 
 .professional-links .resume {
@@ -141,21 +164,8 @@ footer a:visited {
   width: 84px;
 }
 
-.caption {
-  font-size: 14px;
-  text-align: center;
-}
-
-.about {
-  background: var(--accent-color);
-  padding: 73px;
-}
-
-.portrait {
-  max-width: 350px;
-}
-
-.about-text {
-  background: #fff;
-  padding: 40px;
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
 }
