@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   font-size: 24px;
+  font-weight: 300;
 }
 
 footer {
@@ -164,8 +165,42 @@ footer a:visited {
   width: 84px;
 }
 
+.project-list {
+  background: var(--accent-color);
+  max-width: 800px;
+  display: flex;
+  margin: 35px auto;
+}
+
+.project-list img {
+  max-width: 350px;
+  position: relative;
+  top: -25px;
+  left: -50px;
+}
+
+.project-list p {
+  padding-top: 20px;
+}
+
+.project-list a {
+  color: var(--muted-color);
+}
+
+.project-list a:visited {
+  color: var(--muted-color);
+}
+
 @media (max-width: 768px) {
   .hero {
     text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
   }
 }
