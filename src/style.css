@@ -93,12 +93,12 @@ footer a:visited {
 .hero {
   color: var(--bold-color);
   margin: 115px auto 35px;
-  white-space: nowrap;
   padding: 45px 25px;
 }
 
 .hero h1 {
   font-size: 64px;
+  white-space: nowrap;
 }
 
 .contact-link {
@@ -189,6 +189,14 @@ footer a:visited {
 
 .project-list a:visited {
   color: var(--muted-color);
+}
+
+.contact-info {
+  max-width: 800px;
+  background: var(--accent-color);
+  margin: 0 auto 35px;
+  text-align: center;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
