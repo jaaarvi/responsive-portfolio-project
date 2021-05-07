@@ -178,10 +178,14 @@ footer .col {
   position: relative;
   top: -25px;
   left: -50px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid var(--bold-color);
 }
 
 .project-list p {
   padding-top: 20px;
+  font-size: 14px;
 }
 
 .contact-info {
